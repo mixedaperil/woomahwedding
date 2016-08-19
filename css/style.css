@@ -1,11 +1,27 @@
 /* @font-face */
 @font-face {
     font-family: 'Brandon Med';
-    src: url('brandon_med_webfont.eot');
-    src: url('brandon_med_webfont.eot?#iefix') format('embedded-opentype'),
-         url('brandon_med-webfont.woff') format('woff'),
-         url('brandon_med_webfont.ttf') format('truetype'),
-         url('brandon_med_webfont.svg#brandon_med_webfont') format('svg');
+    src: url('type/brandon_med_webfont.eot');
+    src: url('type/brandon_med_webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/brandon_med-webfont.woff') format('woff'),
+         url('type/brandon_med_webfont.ttf') format('truetype'),
+         url('type/brandon_med_webfont.svg#brandon_med_webfont') format('svg');
+}
+@font-face {
+    font-family: 'Brandon Bld';
+    src: url('type/brandontext-bold-webfont.eot');
+    src: url('type/brandontext-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/brandontext-bold-webfont.woff') format('woff'),
+         url('type/brandontext-bold-webfont.ttf') format('truetype'),
+         url('type/brandontext-bold-webfont.svg#brandontext-bold-webfont') format('svg');
+}
+@font-face {
+    font-family: 'Brandon Blk';
+    src: url('type/brandongrotesque-black-webfont.eot');
+    src: url('type/brandongrotesque-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/brandongrotesque-black-webfont.woff') format('woff'),
+         url('type/brandongrotesque-black-webfont.ttf') format('truetype'),
+         url('type/brandongrotesque-black-webfont.svg#brandongrotesque-black-webfont') format('svg');
 }
 
 
@@ -29,6 +45,21 @@ body, input {
 	background: #FFF;
 }
 
+h1 {
+	font-size: 46px;
+	font-family: "Brandon Blk", "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: "Brandon Blk", "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .hero .eight {
 	background: #CFCFCF;
 	margin: 0;
@@ -46,72 +77,13 @@ body, input {
 	padding: 0;
 	height: 100vh;
 	max-height: 1000px;
+	text-transform: uppercase;
 }
 
 .columns {
 	border: 2px solid red;
 	margin:0;
 }
-
-
-/* Columns */
-/*.col-10 {
-	width: 10%;
-}
-.col-20	{
-	width: 20%;
-}
-.col-25	{
-	width: 25%;
-}
-.col-33	{
-	width: 33.3333%;
-}
-.col-50	{
-	width: 50%;
-}
-.col-67	{
-	width: 66.6666%;
-}
-.col-75	{
-	width: 75%;
-}
-.col-80	{
-	width: 80%;
-}
-.col-90	{
-	width: 90%;
-}*/
-
-
-
-
-/*.col {
-	border: 2px solid red;
-	background: #CFCFCF;
-}
-
-.col-sm {
-	width: 19.5%;
-}
-.col-med-sec {
-	width: 39.5%;
-}
-.col-full {
-	width: 100%;
-}*/
-
-
-
-
-/* Responsive */
-@media screen and (max-width : 685px) {	
-
-}
-
-
-
-
 
 
 /* Animations */
