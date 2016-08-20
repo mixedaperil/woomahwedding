@@ -51,34 +51,36 @@ body, input {
 	line-height: 22.5px;
 	background: #000;
 }
-.container {
-	max-width: 1920px;
-	width: 100%;
-	margin: 0 auto;
-	background: #FFF;
-}
 a {
 	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 5px;
 }
-
 h1 {
 	font-size: 46px;
 	font-family: "Brandon Blk", "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 h2 {
 	font-size: 28px;
 	font-family: "Brandon Blk", "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 h3 {
 	font-size: 24px;
 	font-family: "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 16px;
+}
+.container {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+	background: #FFF;
+}
 .btn {
 	font-size: 32px;
 	color: #60CFC8;
@@ -90,19 +92,24 @@ h3 {
 	-moz-transition:all .5s;
 	transition:all .5
 }
-
 .btn:hover {
-	color: #FFF;
-	background: #60CFC8;
-	border-color: #60CFC8;
-	/*color: #10AFA5;
-	border-color: #10AFA5;*/
+	background: #CFCFCF;
+	color: #10AFA5;
+	border-color: #10AFA5;
 }
-
 .center {
 	margin: 0 auto;
 }
+.columns {
+	margin: 0;
+}
+.teal-emph {
+	color: #148079;
+}
 
+
+
+/* HERO IMG */
 .hero .eight {
 	background: #CFCFCF;
 	margin: 0;
@@ -114,11 +121,17 @@ h3 {
 	height: 100vh;
 	max-height: 1000px;
 }
-
-
-
-
-/* Hero Text */
+/* HERO TEXT */
+.hero .four {
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	max-height: 1000px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 6em 0;
+}
 .hero .four .title {
 	background: url(../images/title.png);
 	background-repeat: no-repeat;
@@ -139,16 +152,6 @@ h3 {
 }
 .hero .four h3 {
 	color: #b5b4b4;
-}
-.hero .four {
-	background: #FFF;
-	margin: 0;
-	padding: 0;
-	height: 100vh;
-	max-height: 1000px;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 6em 0;
 }
 .hero .four h3.blk {
 	margin-top: 2em;
@@ -183,15 +186,49 @@ h3 {
 
 
 
-
-
-
-.columns {
-	margin:0;
+/* SCHEDULE */
+.section-two .four {
+	background: #5d5d5d;
+	color: #FFF;
+	text-align: center;
+	padding: 3em 0 8em;
+}
+.section-two .four h5 {
+	color: #b5b4b4;
+}
+.section-two .four ul {
+	margin-top: 4em;
+	list-style-type: none;
+}
+.section-two .four li {
+	font-size: 28px;
+	text-transform: capitalize;
+	margin-bottom: 1em;
+	line-height: 30px;
+}
+.section-two .four li span {
+	font-size: 20px;
+	color: #b5b4b4;
 }
 
 
-/* Animations */
+
+/* DIRECTIONS */
+.section-two .five {
+	background: #60CFC8;
+	color: #FFF;
+	padding: 3em 0;
+	text-align: center;
+}
+.section-two .five {
+	background: rgba(70,202,194, 0.7);
+}
+
+
+
+
+
+
 
 /*
 ==============================================
