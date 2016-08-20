@@ -90,10 +90,11 @@ h5 {
 	font-family: "Brandon Blk", "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-transition:all .5s;
 	-moz-transition:all .5s;
-	transition:all .5
+	transition:all .5;
+	text-transform: uppercase;
 }
 .btn:hover {
-	background: #CFCFCF;
+	background: #FDFDFD;
 	color: #10AFA5;
 	border-color: #10AFA5;
 }
@@ -191,7 +192,8 @@ h5 {
 	background: #5d5d5d;
 	color: #FFF;
 	text-align: center;
-	padding: 3em 0 8em;
+	padding: 3em 0;
+	height: 60vh;
 }
 .section-two .four h5 {
 	color: #b5b4b4;
@@ -214,14 +216,63 @@ h5 {
 
 
 /* DIRECTIONS */
-.section-two .five {
-	background: #60CFC8;
+.section-two .eight {
+	background: url('../images/map.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	height: 60vh;
+}
+.section-two .seven {
+	background: rgba(70,202,194, 0.65);
 	color: #FFF;
-	padding: 3em 0;
+	padding: 3em;
+	text-align: center;
+	height: 60vh;
+}
+.section-two .seven ol {
+	color: #5d5d5d;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 15px;
+	margin: 3em 0 4.5em;
+	list-style: none;
+	position: relative;
+}
+.section-two .seven ol .number {
+	background: #148079;
+	color: #FFF;
+	padding: 3px 8px;
+	width: 34px;
+	height: 34px;
+	border-radius: 888px;
+	font-size: 0.75em;
+	margin-right: 0.5em;
+}
+
+
+
+/* REGISTRY */
+.registry {
+	padding: 3em 0 2em;
+	color: #5d5d5d;
 	text-align: center;
 }
-.section-two .five {
-	background: rgba(70,202,194, 0.7);
+.registry .gift {
+	background: url(../images/gift@1x.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 180px;
+	height: 175.59px;
+	text-indent: -8888em;
+	margin: 3em auto 4em;
+}
+.registry h4 {
+	margin: 1em;
+}
+.registry .btn {
+	position: relative;
+	top: 1em;
 }
 
 
