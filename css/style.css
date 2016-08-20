@@ -26,6 +26,19 @@
 
 
 
+/* Type Presets */
+.blk {
+	font-family: "Brandon Blk", "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.bld {
+	font-family: "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.med {
+	font-family: "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
 
 /* Global Elements */
 body, input {
@@ -44,6 +57,12 @@ body, input {
 	margin: 0 auto;
 	background: #FFF;
 }
+a {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px;
+}
 
 h1 {
 	font-size: 46px;
@@ -60,6 +79,30 @@ h3 {
 	font-family: "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.btn {
+	font-size: 32px;
+	color: #60CFC8;
+	border: 5px solid #60CFC8;
+	background: #FFF;
+	padding: 5px 30px;
+	font-family: "Brandon Blk", "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	transition:all .5
+}
+
+.btn:hover {
+	color: #FFF;
+	background: #60CFC8;
+	border-color: #60CFC8;
+	/*color: #10AFA5;
+	border-color: #10AFA5;*/
+}
+
+.center {
+	margin: 0 auto;
+}
+
 .hero .eight {
 	background: #CFCFCF;
 	margin: 0;
@@ -71,6 +114,32 @@ h3 {
 	height: 100vh;
 	max-height: 1000px;
 }
+
+
+
+
+/* Hero Text */
+.hero .four .title {
+	background: url(../images/title.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-indent: -9999em;
+	width: 400px;
+	height: 258px;
+}
+.hero .four h1 {
+	color: #60CFC8;
+}
+.hero .four h2 a, .hero .four h2 a:visited {
+	color: #5d5d5d;
+}
+.hero .four h2 a:hover {
+	color: #888888;
+}
+.hero .four h3 {
+	color: #b5b4b4;
+}
 .hero .four {
 	background: #FFF;
 	margin: 0;
@@ -78,10 +147,46 @@ h3 {
 	height: 100vh;
 	max-height: 1000px;
 	text-transform: uppercase;
+	text-align: center;
+	padding: 6em 0;
+}
+.hero .four h3.blk {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+.hero .four .btn {
+	padding: 5px 55px;
+	position: relative;
+	top: 2em;
+}
+.divider {
+	width: 415px;
+	height: 46px;
+	display: block;
+	padding: 2em 0;
+}
+.divider-line {
+	height: 3px;
+	width: 150px;
+	background: #60CFC8;
+	position: relative;
+	top: 25px;
+}
+.divider-rings {
+	background: url(../images/rings@1x.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 58px;
+	height: 46px;
+	margin: 0 14px !important;
 }
 
+
+
+
+
+
 .columns {
-	border: 2px solid red;
 	margin:0;
 }
 
@@ -90,55 +195,44 @@ h3 {
 
 /*
 ==============================================
-fadeIn
+Fade In
 ==============================================
 */
 
-.fadeIn{
-	animation-name: fadeIn;
-	-webkit-animation-name: fadeIn;	
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-	animation-duration: 1.5s;	
-	-webkit-animation-duration: 1.5s;
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
 
-	animation-timing-function: ease-in-out;	
-	-webkit-animation-timing-function: ease-in-out;		
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
 
-	visibility: visible !important;	
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
 }
 
-@keyframes fadeIn {
-	0% {
-		transform: scale(0);
-		opacity: 0.0;		
-	}
-	60% {
-		transform: scale(1.1);	
-	}
-	80% {
-		transform: scale(0.9);
-		opacity: 1;	
-	}	
-	100% {
-		transform: scale(1);
-		opacity: 1;	
-	}		
+.fade-in.first {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
 
-@-webkit-keyframes fadeIn {
-	0% {
-		-webkit-transform: scale(0);
-		opacity: 0.0;		
-	}
-	60% {
-		-webkit-transform: scale(1.1);
-	}
-	80% {
-		-webkit-transform: scale(0.9);
-		opacity: 1;	
-	}	
-	100% {
-		-webkit-transform: scale(1);
-		opacity: 1;	
-	}		
+.fade-in.second {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.third {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
 }
