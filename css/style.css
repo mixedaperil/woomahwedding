@@ -189,27 +189,27 @@ h5 {
 
 
 /* SCHEDULE */
-.section-two .four {
+.section-two .schedule {
 	background: #5d5d5d;
 	color: #FFF;
 	text-align: center;
 	padding: 3em 0;
 	height: 60vh;
 }
-.section-two .four h5 {
+.section-two .schedule h5 {
 	color: #b5b4b4;
 }
-.section-two .four ul {
+.section-two .schedule ul {
 	margin-top: 4em;
 	list-style-type: none;
 }
-.section-two .four li {
+.section-two .schedule li {
 	font-size: 28px;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 	line-height: 30px;
 }
-.section-two .four li span {
+.section-two .schedule li span {
 	font-size: 20px;
 	color: #b5b4b4;
 }
@@ -217,21 +217,21 @@ h5 {
 
 
 /* DIRECTIONS */
-.section-two .eight {
+.section-two .directions {
 	background: url('../images/map.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center right;
 	height: 60vh;
 }
-.section-two .seven {
+.section-two .direction-content {
 	background: rgba(70,202,194, 0.65);
 	color: #FFF;
 	padding: 3em;
 	text-align: center;
 	height: 60vh;
 }
-.section-two .seven ol {
+.section-two .direction-content ol {
 	color: #5d5d5d;
 	text-transform: uppercase;
 	text-align: left;
@@ -240,7 +240,7 @@ h5 {
 	list-style: none;
 	position: relative;
 }
-.section-two .seven ol .number {
+.section-two .direction-content ol .number {
 	background: #148079;
 	color: #FFF;
 	padding: 3px 8px;
