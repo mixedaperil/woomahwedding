@@ -54,6 +54,9 @@ body, input {
 a {
 	text-decoration: none;
 }
+a:hover, .teal-emph {
+	color: #148079;
+}
 h1, h2, h3, h4, h5, h6 {
 	margin: 5px;
 }
@@ -92,6 +95,7 @@ h5 {
 	-moz-transition:all .5s;
 	transition:all .5;
 	text-transform: uppercase;
+	display: inline-block;
 }
 .btn:hover {
 	background: #FDFDFD;
@@ -103,9 +107,6 @@ h5 {
 }
 .columns {
 	margin: 0;
-}
-.teal-emph {
-	color: #148079;
 }
 
 
@@ -270,10 +271,59 @@ h5 {
 .registry h4 {
 	margin: 1em;
 }
-.registry .btn {
-	position: relative;
-	top: 1em;
+
+
+
+/* WHERE TO STAY */
+.where-stay {
+	text-align: center;
+	background: #60CFC8;
+	padding: 3em 0 5em;
+	color: #5d5d5d;
 }
+.where-stay .row {
+	width: 1159px;
+	margin-top: 5em;
+}
+.where-stay .grid-block {
+	width: 350px;
+}
+.where-stay .spacer {
+	text-indent: -8888em;
+}
+.where-stay .grid-img {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 233px;
+}
+.where-stay .grid-img#img-01 {
+	background: url(../images/stay01.jpg);
+}
+.where-stay .grid-img#img-02 {
+	background: url(../images/stay02.jpg);
+}
+.where-stay .grid-img#img-03 {
+	background: url(../images/stay03.jpg);
+}
+.where-stay .stay-title {
+	text-transform: uppercase;
+	margin-top: 0.75em;
+}
+.where-stay .grid-block .btn {
+	background: transparent;
+	font-size: 24px;
+	padding:15px 25px;
+	border-color: #5d5d5d;
+	color: #5d5d5d;
+	margin-top: 0.75em;
+}
+.where-stay .grid-block .btn:hover {
+	border-color: #333;
+	color: #333;
+}
+
 
 
 
