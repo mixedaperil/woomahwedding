@@ -326,6 +326,22 @@ h5 {
 
 
 
+/* CONTACT US */
+.contact {
+	background: #5d5d5d;
+	padding: 3em;
+	color: #FFF;
+	text-align: center;
+}
+.contact .btn {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: transparent;
+	margin-top: 0.5em;
+}
+
+
+
 
 
 
