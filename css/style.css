@@ -89,7 +89,7 @@ h5 {
 	color: #60CFC8;
 	border: 5px solid #60CFC8;
 	background: #FFF;
-	padding: 5px 30px;
+	padding: 15px 55px;
 	font-family: "Brandon Blk", "Brandon Bld", "Brandon Med", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-transition:all .5s;
 	-moz-transition:all .5s;
@@ -160,9 +160,7 @@ h5 {
 	margin-bottom: 1em;
 }
 .hero .four .btn {
-	padding: 5px 55px;
-	position: relative;
-	top: 2em;
+	margin-top: 1em;
 }
 .divider {
 	width: 415px;
@@ -255,7 +253,7 @@ h5 {
 
 /* REGISTRY */
 .registry {
-	padding: 3em 0 2em;
+	padding: 3em 0;
 	color: #5d5d5d;
 	text-align: center;
 }
@@ -278,12 +276,12 @@ h5 {
 .where-stay {
 	text-align: center;
 	background: #60CFC8;
-	padding: 3em 0 5em;
-	color: #5d5d5d;
+	padding: 4em 0 9em;
+	color: #006f68;
 }
 .where-stay .row {
 	width: 1159px;
-	margin-top: 5em;
+	margin-top: 7em;
 }
 .where-stay .grid-block {
 	width: 350px;
@@ -292,11 +290,15 @@ h5 {
 	text-indent: -8888em;
 }
 .where-stay .grid-img {
-	background-position: center;
+	background-position: center bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 350px;
 	height: 233px;
+	border: 5px solid #0a988f;
+}
+.where-stay .grid-img:hover {
+	border-color: #66f1e8;
 }
 .where-stay .grid-img#img-01 {
 	background: url(../images/stay01.jpg);
@@ -307,21 +309,38 @@ h5 {
 .where-stay .grid-img#img-03 {
 	background: url(../images/stay03.jpg);
 }
+.where-stay a {
+	color: #006f68;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	transition:all .5;
+}
+.where-stay a:hover {
+	color: #bcfffb;
+}
 .where-stay .stay-title {
 	text-transform: uppercase;
 	margin-top: 0.75em;
+	font-size: 34px;
+}
+.where-stay .grid-block .rating-number {
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	color: #bcfffb;
+	position: relative;
+	top: -5px;
 }
 .where-stay .grid-block .btn {
 	background: transparent;
 	font-size: 24px;
-	padding:15px 25px;
-	border-color: #5d5d5d;
-	color: #5d5d5d;
-	margin-top: 0.75em;
+	padding: 15px 25px;
+	border-color: #006f68;
+	color: #006f68;
 }
 .where-stay .grid-block .btn:hover {
-	border-color: #333;
-	color: #333;
+	border-color: #0a988f;
+	color: #0a988f;
+	background: #66f1e8;
 }
 
 
@@ -334,8 +353,7 @@ h5 {
 	text-align: center;
 }
 .contact .btn {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding: 15px 30px;
 	background: transparent;
 	margin-top: 0.5em;
 }
