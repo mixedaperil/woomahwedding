@@ -4,7 +4,8 @@ $(document).ready(function(){
 
     // Show modal when entry point is clicked
     $('.donation').click(function() {
-    	$('.overlay').removeClass('hide').addClass('show`');
+    	$('.overlay').removeClass('hide').addClass('show');
+    	$('.modal').addClass('show');
     });
 
     // Close modal when exit points are clicked, reset to begin screen
@@ -14,6 +15,14 @@ $(document).ready(function(){
     	$('.canadian').removeClass('show').addClass('hide');
     	$('.global').removeClass('show').addClass('hide');
     });
+
+    // Close modal when clicked outside
+    $('.overlay').click(function(){
+	     $('.overlay, .modal').removeClass('show').addClass('hide');
+	})                                            
+	$('.modal').click(function(e){
+	   e.stopPropagation();
+	})   
 
     // When Canada selection is made, show Canadian content
     $('.where-from .canada').click(function() {
