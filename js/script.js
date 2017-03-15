@@ -24,16 +24,19 @@ $(document).ready(function(){
 	   e.stopPropagation();
 	})   
 
-    // When Canada selection is made, show Canadian content
-    $('.where-from .canada').click(function() {
-    	$('.begin').removeClass('show').addClass('hide');
-    	$('.canadian').removeClass('hide').addClass('show');
-    });
-
-    // When International selection is made, show International content
-    $('.where-from .international').click(function() {
-    	$('.begin').removeClass('show').addClass('hide');
-    	$('.global').removeClass('hide').addClass('show');
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 800);
+            return false;
+          }
+        }
+      });
     });
 
     

@@ -37,9 +37,8 @@ a {
 	text-decoration: none;
 }
 a.btn {
-	max-width: 166.67px;
-	background-color: #E39D23;
-	border: 3px solid #E39D23;
+	max-width: 150px;
+	background-color: #088B75;
 	border-radius: 888px;
 	font-size: 14px;
 	font-weight: bold;
@@ -47,7 +46,7 @@ a.btn {
 	line-height: 23px;
 	color: #FFFFFF;
 	text-transform: capitalize;
-	padding: 12px 8px;
+	padding: 14px 8px;
 	letter-spacing: 0.1px;
 	margin: 0 auto;
 	display: block;
@@ -57,6 +56,10 @@ a.btn {
 	width: 100%;
 	margin: 0 auto;
 	background: #FFF;
+}
+.image-breaker {
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 
@@ -96,6 +99,14 @@ a.btn {
 	font-weight: 600;
 	line-height: 25px;
 	margin-top: 7px;
+}
+.hero .btn:hover {
+	background: #E39D23;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 .hero #menu {
 	position: absolute;
@@ -142,12 +153,12 @@ a.btn {
 
 
 /* About */
-.about {
+#about {
 	background: #FFF;
 	position: relative;
 	padding-bottom: 45px;
 }
-.about .container {
+#about .container {
 	position: relative;
 	width: 908px;
 	background: url(../images/canadamap@2x.png);
@@ -155,18 +166,18 @@ a.btn {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.about .container .top-border {
+#about .container .top-border {
 	height: 8px;
 	background-color: #E39D23;
 	width: 500px;
 	margin: 0 auto;
 	display: block;
 }
-.about .container .about-heading {
+#about .container .about-heading {
 	margin: 20px 0 70px 0;
 	text-align: center;
 }
-.about .container .about-heading .globe {
+#about .container .about-heading .globe {
 	background: url(../images/globe@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -176,24 +187,24 @@ a.btn {
 	display: inline-block;
 	margin-right: 25px;
 }
-.about .container .about-heading h3 {
+#about .container .about-heading h3 {
 	text-transform: capitalize;
 	display: inline-block;
 	margin: 0;
 	position: relative;
 	top: -15px;
 }
-.about .container .profile {
+#about .container .profile {
 	text-align: center;
 	width: 368px;
 	color: #4A4A4A;
 	display: inline-block;
 	vertical-align: top;
 }
-.about .container .profile.april {
+#about .container .profile.april {
 	margin-right: 168px;
 }
-.about .container .profile.april .portrait {
+#about .container .profile.april .portrait {
 	background: url(../images/aprilportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -201,7 +212,7 @@ a.btn {
 	height: 342px;
 	width: 327px;
 }
-.about .container .profile.chloe .portrait {
+#about .container .profile.chloe .portrait {
 	background: url(../images/chloeportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -209,36 +220,36 @@ a.btn {
 	height: 342px;
 	width: 327px;
 }
-.about .container .profile h3 {
+#about .container .profile h3 {
 	text-transform: capitalize;
 	margin: 10px 0 0 0;
 	letter-spacing: 0.2px;
 }
-.about .container .profile p {
+#about .container .profile p {
 	text-align: justify;
 	font-size: 14px;
 	margin-top: 15px;
 }
-.about .container .profile .wedding-party {
+#about .container .profile .wedding-party {
 	margin-top: 35px;
 	text-align: left;
 }
-.about .container .profile .wedding-party .person {
+#about .container .profile .wedding-party .person {
 	margin-top: 13px;
 	width: 42px;
 	max-width: 46px;
 	display: inline-block;
 }
-.about .container .profile .wedding-party .person.best-man {
+#about .container .profile .wedding-party .person.best-man {
 	margin-left: 15px;
 }
-.about .container .profile .wedding-party .person p {
+#about .container .profile .wedding-party .person p {
 	font-size: 12px;
 	text-transform: capitalize;
 	text-align: center;
-	margin-top: 2px 0 0 0;
+	margin: 2px 0 0 0;
 }
-.about .container .profile .wedding-party .person.karen .portrait {
+#about .container .profile .wedding-party .person.karen .portrait {
 	background: url(../images/karenportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -246,7 +257,7 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
-.about .container .profile .wedding-party .person.myro .portrait {
+#about .container .profile .wedding-party .person.myro .portrait {
 	background: url(../images/myroportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -254,7 +265,7 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
-.about .container .profile .wedding-party .person.chantee .portrait {
+#about .container .profile .wedding-party .person.chantee .portrait {
 	background: url(../images/chanteeportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -262,7 +273,7 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
-.about .container .profile .wedding-party .person.luc .portrait {
+#about .container .profile .wedding-party .person.luc .portrait {
 	background: url(../images/lucportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -270,7 +281,46 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
+#about .container .footnote {
+	color: #9B9B9B;
+	font-size: 10px;
+	text-align: left;
+}
+#about .container .footnote .border {
+	height: 2px;
+	width: 100%;
+	margin: 60px 0 10px 0;
+	background: rgba(155,155,155,0.2);
+}
+#about .container .footnote p, .about .container .footnote .legend {
+	display: inline-block;
+}
+#about .container .footnote p {
+	letter-spacing: 0.1px;
+}
+#about .container .footnote .legend{
+	margin: 0;
+	display: inline-block;
+	text-transform: uppercase;
+	float: right;
+}
+#about .container .footnote .legend li {
+	float: right;
+	margin-left: 25px;
+	vertical-align: middle;
+}
 
+
+
+
+
+/* Image Breaker - Shoes */
+.image-breaker.shoes {
+	background: url(../images/imgbreaker_shoes@2x.png);
+	background-size: cover;
+	background-position: center;
+	height: 589px;
+}
 
 
 
