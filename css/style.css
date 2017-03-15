@@ -11,6 +11,8 @@ body {
 h1 {
 	font-size: 64px;
 	font-family: 'Playfair Display', serif;
+	text-transform: capitalize;
+	color: #FFF;
 }
 h2 {
 	font-size: 42px;
@@ -38,7 +40,7 @@ a {
 }
 a.btn {
 	max-width: 150px;
-	background-color: #088B75;
+	background-color: #E39D23;
 	border-radius: 888px;
 	font-size: 14px;
 	font-weight: bold;
@@ -60,6 +62,11 @@ a.btn {
 .image-breaker {
 	background-repeat: no-repeat;
 	width: 100%;
+}
+.top-border {
+	height: 2px;
+	width: 500px;
+	margin-bottom: 14px;
 }
 
 
@@ -101,7 +108,7 @@ a.btn {
 	margin-top: 7px;
 }
 .hero .btn:hover {
-	background: #E39D23;
+	background: #088B75;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -136,15 +143,16 @@ a.btn {
 	position: relative;
 }
 .hero nav ul li a:hover:after {
-	width: 100%;
+	width: 108%;
 }
 
 .hero nav ul li a:after {
 	content: '';
 	position: absolute;
+	top: -4px;
 	left: 0;
 	width: 0%;
-	border-bottom: 2px solid #60ADCB;
+	border-bottom: 3px solid #088B75;
 	transition: 0.4s;
 }
 
@@ -169,7 +177,6 @@ a.btn {
 #about .container .top-border {
 	height: 8px;
 	background-color: #E39D23;
-	width: 500px;
 	margin: 0 auto;
 	display: block;
 }
@@ -320,6 +327,52 @@ a.btn {
 	background-size: cover;
 	background-position: center;
 	height: 589px;
+}
+
+
+
+
+
+/* Itinerary */
+#itinerary {
+	background: url(../images/bg_itinerary@2x.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+#itinerary .section-content {
+	width: 894px;
+	margin: 0 auto;
+	padding-top: 70px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#itinerary .section-content .top-border {
+	background: rgba(277,157,35,0.8);
+}
+#itinerary .section-content h1 {
+	margin-bottom: 70px;
+}
+#itinerary .section-content .timeline {
+	width: 107px;
+	color: #E39D23;
+	display: inline-block;
+	font-size: 24px;
+	list-style-type: none;
+}
+#itinerary .section-content .events {
+	color: #FFF;
+	display: inline-block;
+	font-size: 18px;
+	list-style-type: none;
+	vertical-align: top;
+	margin-left: 95px;
+}
+#itinerary .section-content .events li {
+	line-height: 38px;
 }
 
 
