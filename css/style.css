@@ -55,6 +55,9 @@ a.btn {
 }
 
 
+
+
+
 /* Hero */
 .hero {
 	padding: 200px 0 0 0;
@@ -106,9 +109,6 @@ a.btn {
 	display: inline-block;
 	margin: 0;
 }
-.hero nav ul li:first-child() {
-	margin-left: 0;
-}
 .hero nav ul a {
 	font-size: 12px;
 	font-weight: 600;
@@ -117,9 +117,19 @@ a.btn {
 	text-shadow: 0px 0px 5px rgba(85, 85, 85, 0.88);
 	text-transform: uppercase;
 	margin-left: 45px;
+	position: relative;
 }
-.hero nav ul li a:hover {
-	color: #60ADCB;
+.hero nav ul li a:hover:after {
+	width: 100%;
+}
+
+.hero nav ul li a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 0%;
+	border-bottom: 2px solid #60ADCB;
+	transition: 0.4s;
 }
 
 
