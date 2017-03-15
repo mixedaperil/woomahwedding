@@ -5,7 +5,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-size: 1em;
+	font-size: 16px;
 	background: #353535;
 }
 h1 {
@@ -67,7 +67,7 @@ a.btn {
 .section-content {
 	width: 894px;
 	margin: 0 auto;
-	padding-top: 70px;
+	padding-top: 75px;
 	font-weight: 600;
 }
 .top-border {
@@ -216,7 +216,7 @@ a.btn {
 	vertical-align: top;
 }
 #about .container .profile.april {
-	margin-right: 168px;
+	margin-right: 167px;
 }
 #about .container .profile.april .portrait {
 	background: url(../images/aprilportrait@2x.png);
@@ -483,7 +483,7 @@ a.btn {
 	background: url(../images/imgbreaker_sunsethands@2x.png);
 	background-size: cover;
 	background-position: center;
-	width: 423px;
+	width: 422px;
 	display: inline-block;
 	height: 508px;
 	margin: 0;
@@ -520,7 +520,7 @@ a.btn {
 	font-size: 14px;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 97px;
+	margin-left: 95px;
 }
 #accomodations .section-content .suggestion.agassiz {
 	margin-left: 0;
@@ -597,8 +597,8 @@ a.btn {
 }
 #registry .registry-content {
 	display: inline-block;
-    padding-top: 52px;
-    padding-left: 76px;
+    padding-top: 75px;
+    padding-left: 75px;
     position: absolute;
     width: 626px;
 }
@@ -618,6 +618,91 @@ a.btn {
 	color: #E39D23;
 }
 
+
+
+
+
+/* Noteworthy */
+#noteworthy {
+	background: #FFF;
+	color: #6F6F6F;
+	padding-bottom: 100px;
+}
+#noteworthy .section-content .top-border {
+	background: #088B75;
+}
+#noteworthy .section-content h1 {
+	color: #4A4A4A;
+}
+#noteworthy .section-content .note-container .note {
+	height: 350px;
+	width: 32.7%;
+	border: 1px solid rgba(155,155,155,0.38);
+	padding-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+#noteworthy .section-content .note-container {
+	width: 100%;
+	margin-top: 45px;
+}
+#noteworthy .section-content .note-container .note .note-icon {
+	vertical-align: top;
+	margin: 0 auto 15px;
+	height: 82px;
+	width: 151px;
+}
+#noteworthy .section-content .note-container .note.dress .note-icon {
+	background: url(../images/note_dress@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#noteworthy .section-content .note-container .note.rsvp .note-icon {
+	background: url(../images/note_rsvp@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#noteworthy .section-content .note-container .note.eatdrink .note-icon {
+	background: url(../images/note_eatdrink@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#noteworthy .section-content .note-container .note.unplugged .note-icon {
+	background: url(../images/note_unplugged@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#noteworthy .section-content .note-container .note.parking .note-icon {
+	background: url(../images/note_parking@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#noteworthy .section-content .note-container .note.outdoors .note-icon {
+	background: url(../images/note_rsvp@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#noteworthy .section-content .note-container h5 {
+	color: #088B75;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#noteworthy .section-content .note-container p {
+	text-align: justify;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0 auto;
+	width: 250px;
+}
+#noteworthy .section-content .note-container p em {
+	color: #E37820;
+}
 
 
 
