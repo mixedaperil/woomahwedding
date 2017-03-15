@@ -32,8 +32,7 @@ a {
 	text-decoration: none;
 }
 a.btn {
-	width: 166.67px;
-	height: 50px;
+	max-width: 166.67px;
 	background-color: #E39D23;
 	border: 3px solid #E39D23;
 	border-radius: 888px;
@@ -43,8 +42,10 @@ a.btn {
 	line-height: 23px;
 	color: #FFFFFF;
 	text-transform: capitalize;
-	padding: 12px 25px;
+	padding: 12px 8px;
 	letter-spacing: 0.1px;
+	margin: 0 auto;
+	display: block;
 }
 .container {
 	max-width: 1280px;
@@ -64,6 +65,7 @@ a.btn {
 	height: 63vh;
 	min-height: 550px;
 	max-height: 800px;
+	position: relative;
 }
 .hero div {
 	margin-left: 32px;
@@ -87,6 +89,39 @@ a.btn {
 	line-height: 25px;
 	margin-top: 7px;
 }
+.hero #menu {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	width: 100%;
+}
+.hero #menu nav {
+	text-align: center;
+}
+.hero nav ul {
+	list-style-type: none;
+    padding: 0;
+}
+.hero nav ul li {
+	display: inline-block;
+	margin: 0;
+}
+.hero nav ul li:first-child() {
+	margin-left: 0;
+}
+.hero nav ul a {
+	font-size: 12px;
+	font-weight: 600;
+	color: #FFF;
+	line-height: 18px;
+	text-shadow: 0px 0px 5px rgba(85, 85, 85, 0.88);
+	text-transform: uppercase;
+	margin-left: 45px;
+}
+.hero nav ul li a:hover {
+	color: #60ADCB;
+}
+
 
 
 
