@@ -456,7 +456,6 @@ a.btn {
 	background-size: cover;
 	background-position: center;
 	height: 625px;
-	/* background: #353535; */
 }
 
 
@@ -626,7 +625,7 @@ a.btn {
 #noteworthy {
 	background: #FFF;
 	color: #6F6F6F;
-	padding-bottom: 100px;
+	padding-bottom: 95px;
 }
 #noteworthy .section-content .top-border {
 	background: #088B75;
@@ -641,6 +640,7 @@ a.btn {
 	padding-top: 50px;
 	display: inline-block;
 	vertical-align: top;
+	margin-bottom: 5px;
 }
 #noteworthy .section-content .note-container {
 	width: 100%;
@@ -704,6 +704,17 @@ a.btn {
 	color: #E37820;
 }
 
+
+
+
+
+/* Image Breaker - Ring */
+.image-breaker.ring {
+	background: url(../images/imgbreaker_ring@2x.png);
+	background-size: cover;
+	background-position: center;
+	height: 625px;
+}
 
 
 
