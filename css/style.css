@@ -61,7 +61,8 @@ a.btn {
 }
 .image-breaker {
 	background-repeat: no-repeat;
-	width: 100%;
+	width: 1280px;
+	margin: 0 auto;
 }
 .top-border {
 	height: 2px;
@@ -377,6 +378,113 @@ a.btn {
 
 
 
+
+
+/* Destination */
+#destination {
+	position: relative;
+}
+#destination .video-container {
+	width: 1280px; 
+	height: 720px; 
+	margin: 0 auto;
+}
+#destination .video {
+	background: url(../images/woomahvenue_small.gif);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1280px; 
+	height: 720px;
+	margin: 0 auto;
+	text-align: center;
+}
+#destination .video .video-overlay {
+	background: rgba(227,120,32,0.28);
+	width: 1280px; 
+	height: 720px; 
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+}
+#destination .video .top-border {
+	background: #FFF;
+	margin: 0 auto;
+	width: 700px;
+	box-shadow: 2px 2px 5px rgba(95, 95, 95, 0.88);
+}
+#destination .video .venue-container {
+	width: 700px;
+	margin: 0 auto;
+	color: #FFF;
+}
+#destination .video .venue-info {
+	position: absolute;
+	bottom: 50px;
+	text-shadow: 2px 2px 5px rgba(88, 88, 88, 0.88);
+	z-index: 2;
+}
+#destination .video .venue-info h1 {
+	margin: 0 0 10px 0;
+}
+#destination .video .venue-info h5 {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	margin-top: 10px;
+}
+#destination .video .venue-info .btn {
+	text-shadow: none;
+	background: #088B75;
+}
+#destination .video .venue-info .btn:hover {
+	background: #056353;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+/* Image Breaker - Sunset Dip */
+.image-breaker.sunset-dip {
+	background: url(../images/imgbreaker_sunsetdip@2x.png);
+	background-size: cover;
+	background-position: center;
+	height: 625px;
+}
+
+
+
+
+
+/* Image Breaker - Sunset Gaze & Sunset Hands */
+.double-column {
+	margin: 3px auto 0;
+	width: 1280px;
+}
+.double-column .image-breaker.sunset-gaze {
+	background: url(../images/imgbreaker_sunsetgaze@2x.png);
+	background-size: cover;
+	background-position: center;
+	width: 853px;
+	display: inline-block;
+	height: 508px;
+	margin: 0;
+}
+.double-column .image-breaker.sunset-hands {
+	background: url(../images/imgbreaker_sunsethands@2x.png);
+	background-size: cover;
+	background-position: center;
+	width: 423px;
+	display: inline-block;
+	height: 508px;
+	margin: 0;
+}
 
 
 /*
