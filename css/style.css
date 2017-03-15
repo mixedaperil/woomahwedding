@@ -720,6 +720,131 @@ a.btn {
 
 
 
+/* Vendors */
+#vendors {
+	background: #088B75;
+	padding-bottom: 100px;
+}
+#vendors .section-content .top-border {
+	background: #E39D23;
+}
+#vendors .section-content h1 {
+	padding-bottom: 13px;
+	margin-bottom: 0;
+}
+#vendors .section-content .vendor-container {
+	margin: 0 auto;
+	text-align: center;
+}
+#vendors .section-content .vendor-container .row {
+	margin-top: 65px;
+}
+#vendors .section-content .vendor-container .row .vendor {
+	width: 160px;
+	display: inline-block;
+	margin-right: 79px;
+}
+#vendors .section-content .vendor-container .row .vendor.last {
+	margin-right: 0;
+}
+#vendors .section-content .vendor-container .row .vendor .logo {
+	height: 100px;
+	width: 160px;
+}
+#vendors .section-content .vendor-container .row .vendor.sweets .logo {
+	background: url(../images/vendor_sweetz@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.dakotadeller .logo {
+	background: url(../images/vendor_dakotadeller@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.juliejagt .logo {
+	background: url(../images/vendor_juliejagt@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.kismet .logo {
+	background: url(../images/vendor_kismet@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.cloudnine .logo {
+	background: url(../images/vendor_cloudnine@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.mamamartin .logo {
+	background: url(../images/vendor_mamamartin@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.udamadea .logo {
+	background: url(../images/vendor_udamadea@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.vanfotobus .logo {
+	background: url(../images/vendor_vanfotobus@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.americancreeklodge .logo {
+	background: url(../images/vendor_americancreeklodge@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.wildatheart .logo {
+	background: url(../images/vendor_wildatheart@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.phoenix .logo {
+	background: url(../images/vendor_phoenix@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor.travelodge .logo {
+	background: url(../images/vendor_travelodge@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vendors .section-content .vendor-container .row .vendor h6 {
+	font-weight: 600;
+	color: #E39D23;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 15px 0 0 0;
+}
+
+
+
+
+/* Image Breaker - Spoon Tree */
+.image-breaker.spoon-tree {
+	background: url(../images/imgbreaker_spoontree@2x.png);
+	background-size: cover;
+	background-position: center;
+	height: 625px;
+}
+
+
+
+
 
 
 
