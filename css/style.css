@@ -64,6 +64,12 @@ a.btn {
 	width: 1280px;
 	margin: 0 auto;
 }
+.section-content {
+	width: 894px;
+	margin: 0 auto;
+	padding-top: 70px;
+	font-weight: 600;
+}
 .top-border {
 	height: 2px;
 	width: 500px;
@@ -345,11 +351,7 @@ a.btn {
 	position: relative;
 }
 #itinerary .section-content {
-	width: 894px;
-	margin: 0 auto;
-	padding-top: 70px;
 	text-transform: uppercase;
-	font-weight: 600;
 }
 #itinerary .section-content .top-border {
 	background: rgba(277,157,35,0.8);
@@ -385,7 +387,6 @@ a.btn {
 	position: relative;
 }
 #destination .video-container {
-	width: 1280px; 
 	height: 720px; 
 	margin: 0 auto;
 }
@@ -394,7 +395,6 @@ a.btn {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	width: 1280px; 
 	height: 720px;
 	margin: 0 auto;
 	text-align: center;
@@ -456,6 +456,7 @@ a.btn {
 	background-size: cover;
 	background-position: center;
 	height: 625px;
+	/* background: #353535; */
 }
 
 
@@ -464,8 +465,10 @@ a.btn {
 
 /* Image Breaker - Sunset Gaze & Sunset Hands */
 .double-column {
-	margin: 3px auto 0;
-	width: 1280px;
+	margin: 0 auto;
+	padding-top: 3px;
+	padding-bottom: 0;
+	background: #353535;
 }
 .double-column .image-breaker.sunset-gaze {
 	background: url(../images/imgbreaker_sunsetgaze@2x.png);
@@ -484,6 +487,113 @@ a.btn {
 	display: inline-block;
 	height: 508px;
 	margin: 0;
+}
+
+
+
+
+
+/* Accomodations */
+#accomodations {
+	background: #E39D23;
+	height: 735px;
+	color: #FFF;
+	margin-top: -5px;
+}
+#accomodations .section-content {
+	padding-top: 35px;
+}
+#accomodations .section-content .strong-emph {
+	font-size: 14px;
+	text-transform: none;
+}
+#accomodations .section-content .top-border {
+	background: #FFF;
+	margin-top: 15px;
+}
+#accomodations .section-content h1 {
+	margin-bottom: 70px;
+}
+#accomodations .section-content .suggestion {
+	width: 231px;
+	height: 391px;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 97px;
+}
+#accomodations .section-content .suggestion.agassiz {
+	margin-left: 0;
+}
+#accomodations .section-content .suggestion.agassiz .city-img {
+	background: url(../images/accomodations_agassiz@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 210px;
+	width: 210px;
+	margin: 0 auto 18px;
+}
+#accomodations .section-content .suggestion.harrison .city-img {
+	background: url(../images/accomodations_harrison@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 210px;
+	width: 210px;
+	margin: 0 auto 18px;
+}
+#accomodations .section-content .suggestion.chilliwack .city-img {
+	background: url(../images/accomodations_chilliwack@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 210px;
+	width: 210px;
+	margin: 0 auto 18px;
+}
+#accomodations .section-content .suggestion h5 {
+	font-weight: 600;
+	color: #60ADCB;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+#accomodations .section-content .suggestion h5 span {
+	font-size: 13px;
+	position: relative;
+	bottom: 3px;
+}
+#accomodations .section-content .suggestion .drive-time {
+	font-weight: 600;
+}
+#accomodations .section-content .suggestion p {
+	text-align: justify;
+	font-weight: 300;
+}
+
+
+
+
+
+/* Registry */
+#registry {
+	background: url(../images/bg_registry@2x.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 401px;
+	position: relative;
+	margin-top: -5px;
+}
+#registry .image-breaker.tree {
+	background: url(../images/bg_tree@2x.png);
+	background-size: cover;
+	background-position: center;
+	width: 380px;
+	display: inline-block;
+	margin: 0;
+	height: 401px;
 }
 
 
