@@ -25,7 +25,7 @@ h4 {
 h5 {
 	font-size: 22px;
 }
-h5 {
+h6 {
 	font-size: 18px;
 }
 a {
@@ -61,7 +61,7 @@ a.btn {
 /* Hero */
 .hero {
 	padding: 200px 0 0 0;
-	background: url(../images/hero.png);
+	background: url(../images/hero@2x.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -130,6 +130,92 @@ a.btn {
 	width: 0%;
 	border-bottom: 2px solid #60ADCB;
 	transition: 0.4s;
+}
+
+
+
+
+
+/* About */
+.about {
+	background: #FFF;
+	position: relative;
+	padding-bottom: 45px;
+}
+.about .container {
+	position: relative;
+	width: 908px;
+	background: url(../images/canadamap@2x.png);
+	background-size: 647px 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.about .container .top-border {
+	height: 8px;
+	background-color: #E39D23;
+	width: 500px;
+	margin: 0 auto;
+	display: block;
+}
+.about .container .about-heading {
+	margin: 20px 0 70px 0;
+	text-align: center;
+}
+.about .container .about-heading .globe {
+	background: url(../images/globe@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 56px;
+	width: 50px;
+	display: inline-block;
+	margin-right: 25px;
+}
+.about .container .about-heading h3 {
+	text-transform: capitalize;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	top: -15px;
+}
+.about .container .profile {
+	text-align: center;
+	width: 368px;
+	color: #4A4A4A;
+	display: inline-block;
+}
+.about .container .profile.april {
+	margin-right: 168px;
+}
+.about .container .profile.april .portrait {
+	background: url(../images/aprilportrait@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 342px;
+	width: 327px;
+}
+.about .container .profile.chloe .portrait {
+	background: url(../images/chloeportrait@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 350px;
+	width: 389px;
+}
+.about .container .profile h3 {
+	text-transform: capitalize;
+	margin: 10px 0 0 0;
+	letter-spacing: 0.2px;
+}
+.about .container .profile .bride {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.about .container .profile p {
+	text-align: justify;
+	font-size: 14px;
+	margin-top: 15px;
 }
 
 
