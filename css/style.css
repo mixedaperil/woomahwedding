@@ -747,10 +747,13 @@ a.btn {
 #vendors .section-content .vendor-container .row .vendor {
 	width: 160px;
 	display: inline-block;
-	margin-right: 79px;
 }
-#vendors .section-content .vendor-container .row .vendor.last {
-	margin-right: 0;
+#vendors .section-content .vendor-container .row .vendor:hover {
+	opacity: 0.65;
+}
+#vendors .section-content .vendor-container .row .spacer {
+	width: 73px;
+	display: inline-block;
 }
 #vendors .section-content .vendor-container .row .vendor .logo {
 	height: 100px;
