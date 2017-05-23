@@ -18,5 +18,15 @@ $(document).ready(function(){
       });
     });
 
-    
+    // Fade in navigation bar when scrolled to a point
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 720) {
+            $('#menu').addClass('fixed-nav').fadeIn();
+        }
+        else {
+            $('#menu').removeClass('fixed-nav');
+        }
+    });
+
+
 });
