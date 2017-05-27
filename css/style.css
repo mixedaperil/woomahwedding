@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	background: #353535;
+	background: url('../images/whirlpool.png') repeat;
 }
 h1 {
 	font-size: 64px;
@@ -57,6 +57,7 @@ a.btn {
 	max-width: 1280px;
 	width: 100%;
 	margin: 0 auto;
+	box-shadow: 0px 0px 25px rgba(85, 85, 85, 0.28);
 }
 .image-breaker {
 	background-repeat: no-repeat;
@@ -64,7 +65,6 @@ a.btn {
 	width: 100%;
 	max-width: 1280px;
 	min-width: 300px;
-
 }
 .section-content {
 	max-width: 894px;
@@ -192,7 +192,7 @@ a.btn {
 	position: relative;
 	padding-bottom: 45px;
 }
-#about .container {
+#about .section-container {
 	position: relative;
 	max-width: 908px;
 	width: 100%;
@@ -200,18 +200,19 @@ a.btn {
 	background-size: 647px 600px;
 	background-repeat: no-repeat;
 	background-position: center;
+	margin: 0 auto;
 }
-#about .container .top-border {
+#about .section-container .top-border {
 	height: 8px;
 	background-color: #E39D23;
 	margin: 0 auto;
 	display: block;
 }
-#about .container .about-heading {
+#about .section-container .about-heading {
 	margin: 20px 0 70px 0;
 	text-align: center;
 }
-#about .container .about-heading .globe {
+#about .section-container .about-heading .globe {
 	background: url(../images/globe@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -221,14 +222,14 @@ a.btn {
 	display: inline-block;
 	margin-right: 25px;
 }
-#about .container .about-heading h3 {
+#about .section-container .about-heading h3 {
 	text-transform: capitalize;
 	display: inline-block;
 	margin: 0;
 	position: relative;
 	top: -15px;
 }
-#about .container .profile {
+#about .section-container .profile {
 	text-align: center;
 	max-width: 368px;
     width: 100%;
@@ -236,10 +237,10 @@ a.btn {
 	display: inline-block;
 	vertical-align: top;
 }
-#about .container .profile.april {
+#about .section-container .profile.april {
 	margin-right: 167px;
 }
-#about .container .profile.april .portrait {
+#about .section-container .profile.april .portrait {
 	background: url(../images/aprilportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -247,7 +248,7 @@ a.btn {
 	height: 342px;
 	width: 327px;
 }
-#about .container .profile.chloe .portrait {
+#about .section-container .profile.chloe .portrait {
 	background: url(../images/chloeportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -255,36 +256,36 @@ a.btn {
 	height: 342px;
 	width: 327px;
 }
-#about .container .profile h3 {
+#about .section-container .profile h3 {
 	text-transform: capitalize;
 	margin: 10px 0 0 0;
 	letter-spacing: 0.2px;
 }
-#about .container .profile p {
+#about .section-container .profile p {
 	text-align: justify;
 	font-size: 14px;
 	margin-top: 15px;
 }
-#about .container .profile .wedding-party {
+#about .section-container .profile .wedding-party {
 	margin-top: 35px;
 	text-align: left;
 }
-#about .container .profile .wedding-party .person {
+#about .section-container .profile .wedding-party .person {
 	margin-top: 13px;
 	width: 42px;
 	max-width: 46px;
 	display: inline-block;
 }
-#about .container .profile .wedding-party .person.best-man {
+#about .section-container .profile .wedding-party .person.best-man {
 	margin-left: 15px;
 }
-#about .container .profile .wedding-party .person p {
+#about .section-container .profile .wedding-party .person p {
 	font-size: 12px;
 	text-transform: capitalize;
 	text-align: center;
 	margin: 2px 0 0 0;
 }
-#about .container .profile .wedding-party .person.karen .portrait {
+#about .section-container .profile .wedding-party .person.karen .portrait {
 	background: url(../images/karenportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -292,7 +293,7 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
-#about .container .profile .wedding-party .person.jazzin .portrait {
+#about .section-container .profile .wedding-party .person.jazzin .portrait {
 	background: url(../images/jazzinportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -300,7 +301,7 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
-#about .container .profile .wedding-party .person.chantee .portrait {
+#about .section-container .profile .wedding-party .person.chantee .portrait {
 	background: url(../images/chanteeportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -308,7 +309,7 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
-#about .container .profile .wedding-party .person.luc .portrait {
+#about .section-container .profile .wedding-party .person.luc .portrait {
 	background: url(../images/lucportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -316,30 +317,30 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
-#about .container .footnote {
+#about .section-container .footnote {
 	color: #9B9B9B;
 	font-size: 10px;
 	text-align: left;
 }
-#about .container .footnote .border {
+#about .section-container .footnote .border {
 	height: 2px;
 	width: 100%;
 	margin: 60px 0 10px 0;
 	background: rgba(155,155,155,0.2);
 }
-#about .container .footnote p, .about .container .footnote .legend {
+#about .section-container .footnote p, .about .container .footnote .legend {
 	display: inline-block;
 }
-#about .container .footnote p {
+#about .section-container .footnote p {
 	letter-spacing: 0.1px;
 }
-#about .container .footnote .legend{
+#about .section-container .footnote .legend{
 	margin: 0;
 	display: inline-block;
 	text-transform: uppercase;
 	float: right;
 }
-#about .container .footnote .legend li {
+#about .section-container .footnote .legend li {
 	float: right;
 	margin-left: 25px;
 	vertical-align: middle;
@@ -492,13 +493,12 @@ a.btn {
 	margin: 0 auto;
 	padding-top: 5px;
 	padding-bottom: 0;
-	background: #353535;
 }
 .double-column .image-breaker.sunset-gaze {
 	background: url(../images/imgbreaker_sunsetgaze@2x.png);
 	background-size: cover;
 	background-position: center;
-	width: 66.25%;
+	width: 66.5%;
 	max-width: 853px;
 	min-width: 300px;
 	display: inline-block;
@@ -883,8 +883,20 @@ a.btn {
 
 
 
+@media screen and (max-width: 1130px) {
+	/* Hero */
+	.hero ul a {
+		margin-left: 55px;
+	}
 
-@media screen and (max-width: 907px) and (-webkit-min-device-pixel-ratio: 1) {
+	/* Registry */
+	#registry .image-breaker.tree {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
 	/* General */
 	.section-content, .section-title .top-border {
 		max-width: 650px;
@@ -915,6 +927,12 @@ a.btn {
 		position: absolute;
 		top: -8px;
 		left: 11px;
+		text-align: center;
+	}
+	.hero nav.mobile-nav i.ion-ios-close-empty {
+		font-size: 130%;
+	    top: -18px;
+	    left: 15px;
 	}
 	.hero div.mobile-nav-menu {
 		background: #E47921;
@@ -945,41 +963,41 @@ a.btn {
 
 
 	/* About */
-	#about .container .profile {
+	#about .section-container .profile {
 		margin: 0 auto;
 	    max-width: 500px;
 	    display: block;
 	}
-	#about .container .profile.april .bride.portrait, #about .container .profile.chloe .bride.portrait  {
+	#about .section-container .profile.april .bride.portrait, #about .container .profile.chloe .bride.portrait  {
 		margin: 0 auto 0 13%;
 	}
-	#about .container .profile.april {
+	#about .section-container .profile.april {
 		margin-right: auto;
 	}
-	#about .container .profile.chloe {
+	#about .section-container .profile.chloe {
 		margin-top: 80px;
 	}
-	#about .container .profile .wedding-party {
+	#about .section-container .profile .wedding-party {
 		margin-top: 0;
 	}
-	#about .container .footnote .border {
+	#about .section-container .footnote .border {
 	    width: 95%;
 	    max-width: 650px;
 	    margin: 60px auto 10px;
 	}
-	#about .container .footnote p {
+	#about .section-container .footnote p {
 	    width: 100%;
 	    text-align: center;
 	    margin-bottom: 1.5em;
 	    font-size: 110%;
 	}
-	#about .container .footnote .legend {
+	#about .section-container .footnote .legend {
 	    float: none;
 	    display: block;
 	    margin: 0 auto;
 	    width: 282px;
 	}
-	#about .container .footnote .legend li {
+	#about .section-container .footnote .legend li {
 		font-size: 140%;
 	}
 
@@ -1003,6 +1021,7 @@ a.btn {
 		max-height: 508px;
 	    min-height: 340px;
 		margin: 0;
+		width: 66%;
 	}
 	.double-column .image-breaker.sunset-hands {
 		max-height: 508px;
@@ -1029,8 +1048,14 @@ a.btn {
 
 
 	/* Registry */
-	#registry .image-breaker.tree {
-		display: none;
+	#registry .registry-content {
+	    max-width: 650px;
+	    width: 100%;
+	    min-width: 400px;
+	    margin: 0 auto;
+	    display: block;
+	    padding-left: 0;
+	    position: relative;
 	}
 
 
