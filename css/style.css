@@ -662,7 +662,7 @@ a.btn {
 }
 #noteworthy .section-content .note-container .note {
 	height: 350px;
-	min-width: 294.33px;
+	min-width: 292.33px;
 	width: 32.7%;
 	border: 1px solid rgba(155,155,155,0.38);
 	padding-top: 50px;
@@ -711,7 +711,7 @@ a.btn {
 	background-size: cover;
 }
 #noteworthy .section-content .note-container .note.outdoors .note-icon {
-	background: url(../images/note_rsvp@2x.png);
+	background: url(../images/note_outdoors@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
