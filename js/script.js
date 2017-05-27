@@ -18,6 +18,12 @@ $(document).ready(function(){
       });
     });
 
+    // To slide something leftwards into view,
+    // with a delay of 1000 msec
+    $(".mobile-nav").click(function () {
+          $(".mobile-nav-menu").toggle( "slide" );
+    });
+
     // Fade in navigation bar when scrolled to a point
     window.addEventListener("scroll", function() {
         if (window.scrollY > 720) {

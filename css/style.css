@@ -95,7 +95,10 @@ a.btn {
 	max-height: 800px;
 	position: relative;
 }
-.hero div {
+.hero nav.mobile-nav, .hero .mobile-nav-menu {
+	display: none;
+}
+.hero div.title-content {
 	margin-left: 32px;
 	width: 505px;
 }
@@ -147,15 +150,15 @@ a.btn {
 	color: #6F6F6F;
 	text-shadow: none;
 }
-.hero nav ul {
+.hero ul {
 	list-style-type: none;
     padding: 0;
 }
-.hero nav ul li {
+.hero ul li {
 	display: inline-block;
 	margin: 0;
 }
-.hero nav ul a {
+.hero ul a {
 	font-size: 12px;
 	font-weight: 600;
 	color: #FFF;
@@ -164,12 +167,12 @@ a.btn {
 	text-transform: uppercase;
 	margin-left: 75px;
 	position: relative;
+	letter-spacing: 0.6px;
 }
-.hero nav ul li a:hover:after {
+.hero ul li a:hover:after {
 	width: 108%;
 }
-
-.hero nav ul li a:after {
+.hero ul li a:after {
 	content: '';
 	position: absolute;
 	top: -4px;
@@ -766,97 +769,99 @@ a.btn {
 	margin: 0 auto;
 	text-align: center;
 }
-#vendors .section-content .vendor-container .row {
+#vendors .section-content .vendor-container .blk {
+	display: inline-block;
 	margin-top: 65px;
-}
-#vendors .section-content .vendor-container .row .vendor {
-	width: 160px;
-	display: inline-block;
-}
-#vendors .section-content .vendor-container .row .vendor:hover {
-	opacity: 0.65;
-}
-#vendors .section-content .vendor-container .row .spacer {
-	width: 73px;
-	display: inline-block;
-}
-#vendors .section-content .vendor-container .row .vendor .logo {
 	height: 100px;
 	width: 160px;
 }
-#vendors .section-content .vendor-container .row .vendor.sweets .logo {
+#vendors .blk-02, #vendors .blk-03, #vendors .blk-04, #vendors .blk-06, #vendors .blk-07, #vendors .blk-08, #vendors .blk-10, #vendors .blk-11, #vendors .blk-12 {
+	margin-left: 8%;
+}
+#vendors .section-content .vendor-container .vendor {
+	width: 160px;
+	display: inline-block;
+}
+#vendors .section-content .vendor-container .vendor:hover {
+	opacity: 0.65;
+}
+#vendors .section-content .vendor-container .vendor .logo {
+	height: 100px;
+	width: 160px;
+}
+#vendors .section-content .vendor-container .vendor.sweets .logo {
 	background: url(../images/vendor_sweetz@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.dakotadeller .logo {
+#vendors .section-content .vendor-container .vendor.dakotadeller .logo {
 	background: url(../images/vendor_dakotadeller@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.juliejagt .logo {
+#vendors .section-content .vendor-container .vendor.juliejagt .logo {
 	background: url(../images/vendor_juliejagt@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.kismet .logo {
+#vendors .section-content .vendor-container .vendor.kismet .logo {
 	background: url(../images/vendor_kismet@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.cloudnine .logo {
+#vendors .section-content .vendor-container .vendor.cloudnine .logo {
 	background: url(../images/vendor_cloudnine@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.mamamartin .logo {
+#vendors .section-content .vendor-container .vendor.mamamartin .logo {
 	background: url(../images/vendor_mamamartin@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.udamadea .logo {
+#vendors .section-content .vendor-container .vendor.udamadea .logo {
 	background: url(../images/vendor_udamadea@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.vanfotobus .logo {
+#vendors .section-content .vendor-container .vendor.vanfotobus .logo {
 	background: url(../images/vendor_vanfotobus@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.americancreeklodge .logo {
+#vendors .section-content .vendor-container .vendor.americancreeklodge .logo {
 	background: url(../images/vendor_americancreeklodge@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.wildatheart .logo {
+#vendors .section-content .vendor-container .vendor.wildatheart .logo {
 	background: url(../images/vendor_wildatheart@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.phoenix .logo {
+#vendors .section-content .vendor-container .vendor.phoenix .logo {
 	background: url(../images/vendor_phoenix@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor.travelodge .logo {
+#vendors .section-content .vendor-container .vendor.travelodge .logo {
 	background: url(../images/vendor_travelodge@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .row .vendor h6 {
+#vendors .section-content .vendor-container .vendor h6 {
 	font-weight: 600;
 	color: #E39D23;
 	font-size: 14px;
@@ -881,8 +886,61 @@ a.btn {
 
 @media screen and (max-width: 907px) and (-webkit-min-device-pixel-ratio: 1) {
 	/* General */
-	.section-content {
-		padding-left: 30px;
+	.section-content, .section-title .top-border {
+		max-width: 650px;
+		width: 100%;
+		min-width: 400px;
+	}
+	.section-title {
+		margin: 0 auto;
+		width: 650px;
+	}
+
+
+	/* Hero */
+	.hero nav.mobile-nav {
+		color: #FFF;
+		font-size: 40px;
+		left: 0px;
+		top: 0px;
+		position: fixed;
+		height: 50px;
+		width: 50px;
+		background: #E47921;
+		z-index: 8888;
+		cursor: pointer;
+		display: block;
+	}
+	.hero nav.mobile-nav i {
+		position: absolute;
+		top: -8px;
+		left: 11px;
+	}
+	.hero div.mobile-nav-menu {
+		background: #E47921;
+		width: 248px;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		z-index: 8888;
+		display: none;
+		box-shadow: 0px 0px 18px rgba(93, 93, 93, 0.78);
+	}
+	.hero .mobile-nav-menu ul {
+		margin-top: 58px;
+		margin-bottom: 0;
+	}
+	.hero .mobile-nav-menu ul li {
+		display: block;
+		left: 0;
+	}
+	.hero .mobile-nav-menu ul li a {
+		margin-left: 11px;
+		font-size: 88%;
+		line-height: 3.5;
+	}
+	#menu {
+		display: none !important;
 	}
 
 
@@ -892,7 +950,7 @@ a.btn {
 	    max-width: 500px;
 	    display: block;
 	}
-	#about .container .profile.april .portrait, #about .container .profile.chloe .portrait  {
+	#about .container .profile.april .bride.portrait, #about .container .profile.chloe .bride.portrait  {
 		margin: 0 auto 0 13%;
 	}
 	#about .container .profile.april {
@@ -906,7 +964,7 @@ a.btn {
 	}
 	#about .container .footnote .border {
 	    width: 95%;
-	    max-width: 850px;
+	    max-width: 650px;
 	    margin: 60px auto 10px;
 	}
 	#about .container .footnote p {
@@ -958,8 +1016,7 @@ a.btn {
 		padding-bottom: 30px;
 	}
 	#accomodations .section-content .suggestion {
-		margin-top: 100px;
-		margin-left: 0;
+		margin: 100px auto !important;
 	    max-width: 500px;
 	    min-width: 260px;
 	    display: block;
@@ -968,6 +1025,38 @@ a.btn {
 	#accomodations .section-content .suggestion .city-img {
 		width: 300px;
 		height: 300px;
+	}
+
+
+	/* Registry */
+	#registry .image-breaker.tree {
+		display: none;
+	}
+
+
+	/* Noteworthy */
+	#noteworthy .section-content .note-container {
+		margin: 45px auto;
+		max-width: 650px;
+		width: 100%;
+		min-width: 400px;
+	}
+	#noteworthy .section-content .note-container .note {
+	    width: 48.7%;
+	}
+
+
+	/* Vendors */
+	#vendors .blk-02, #vendors .blk-03, #vendors .blk-05,  #vendors .blk-06, #vendors .blk-08, #vendors .blk-09, #vendors .blk-10,  #vendors .blk-012 {
+		margin-left: 12%;
+	}
+	#vendors .blk-04, #vendors .blk-07, #vendors .blk-10 {
+		margin-left: 0;
+	}
+	#vendors .section-content .vendor-container{
+		max-width: 650px;
+		width: 100%;
+		min-width: 400px;
 	}
 }
 
