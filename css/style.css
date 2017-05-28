@@ -649,18 +649,18 @@ a.btn {
 
 
 /* Noteworthy */
-#noteworthy {
+#details {
 	background: #FFF;
 	color: #6F6F6F;
 	padding-bottom: 95px;
 }
-#noteworthy .section-content .top-border {
+#details .section-content .top-border {
 	background: #088B75;
 }
-#noteworthy .section-content h1 {
+#details .section-content h1 {
 	color: #4A4A4A;
 }
-#noteworthy .section-content .note-container .note {
+#details .section-content .note-container .note {
 	height: 350px;
 	min-width: 292.33px;
 	width: 32.7%;
@@ -670,70 +670,70 @@ a.btn {
 	vertical-align: top;
 	margin-bottom: 5px;
 }
-#noteworthy .section-content .note-container {
+#details .section-content .note-container {
 	width: 100%;
 	margin-top: 45px;
 }
-#noteworthy .section-content .note-container .note .note-icon {
+#details .section-content .note-container .note .note-icon {
 	vertical-align: top;
 	margin: 0 auto 15px;
 	height: 82px;
 	width: 151px;
 }
-#noteworthy .section-content .note-container .note.dress .note-icon {
+#details .section-content .note-container .note.dress .note-icon {
 	background: url(../images/note_dress@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#noteworthy .section-content .note-container .note.rsvp .note-icon {
+#details .section-content .note-container .note.rsvp .note-icon {
 	background: url(../images/note_rsvp@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#noteworthy .section-content .note-container .note.eatdrink .note-icon {
+#details .section-content .note-container .note.eatdrink .note-icon {
 	background: url(../images/note_eatdrink@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#noteworthy .section-content .note-container .note.unplugged .note-icon {
+#details .section-content .note-container .note.unplugged .note-icon {
 	background: url(../images/note_unplugged@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#noteworthy .section-content .note-container .note.parking .note-icon {
+#details .section-content .note-container .note.parking .note-icon {
 	background: url(../images/note_parking@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#noteworthy .section-content .note-container .note.outdoors .note-icon {
+#details .section-content .note-container .note.outdoors .note-icon {
 	background: url(../images/note_outdoors@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#noteworthy .section-content .note-container h5 {
+#details .section-content .note-container h5 {
 	color: #088B75;
 	text-align: center;
 	margin-bottom: 10px;
 }
-#noteworthy .section-content .note-container p {
+#details .section-content .note-container p {
 	text-align: justify;
 	font-size: 14px;
 	font-weight: 300;
 	margin: 0 auto;
 	width: 250px;
 }
-#noteworthy .section-content .note-container p span.colorful {
+#details .section-content .note-container p span.colorful {
 	font-size: 120%;
 	font-weight: 600;
 	font-style: oblique;
 }
-#noteworthy .section-content .note-container p em {
+#details .section-content .note-container p em {
 	color: #E37820;
 }
 
@@ -968,7 +968,7 @@ a.btn {
 	    max-width: 500px;
 	    display: block;
 	}
-	#about .section-container .profile.april .bride.portrait, #about .container .profile.chloe .bride.portrait  {
+	#about .section-container .profile.april .bride.portrait, #about .section-container .profile.chloe .bride.portrait  {
 		margin: 0 auto 0 13%;
 	}
 	#about .section-container .profile.april {
@@ -1060,13 +1060,13 @@ a.btn {
 
 
 	/* Noteworthy */
-	#noteworthy .section-content .note-container {
+	#details .section-content .note-container {
 		margin: 45px auto;
 		max-width: 650px;
 		width: 100%;
 		min-width: 400px;
 	}
-	#noteworthy .section-content .note-container .note {
+	#details .section-content .note-container .note {
 	    width: 48.7%;
 	}
 

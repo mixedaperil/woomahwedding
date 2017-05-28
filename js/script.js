@@ -23,7 +23,12 @@ $(document).ready(function(){
     // Slide in mobile navigation
     $(".mobile-nav").click(function () {
       $(".mobile-nav i").removeClass('ion-navicon').addClass('ion-ios-close-empty');
-      $(".mobile-nav-menu").toggle( "slide" );
+      $(".mobile-nav-menu").show( "slide" );
+
+      /*if ($(".mobile-nav-menu").is(':visible')) {
+        $(".mobile-nav i").removeClass('ion-navicon').addClass('ion-ios-close-empty');
+        $(".mobile-nav-menu").show( "slide" );
+      } */
     });
 
 
