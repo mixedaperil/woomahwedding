@@ -98,6 +98,12 @@ a.btn {
 .hero nav.mobile-nav, .hero .mobile-nav-menu {
 	display: none;
 }
+.hero .mobile-nav-container .mobile-nav-menu ul li a {
+	text-shadow: none;
+}
+.hero .mobile-nav-container .mobile-nav-menu ul li a:after {
+	border-bottom: 3px solid #0f5c7a;
+}
 .hero div.title-content {
 	margin-left: 32px;
 	width: 505px;
@@ -970,6 +976,7 @@ a.btn {
 	}
 	#menu {
 		display: none !important;
+		opacity: 0;
 	}
 
 
