@@ -48,6 +48,7 @@ $(document).ready(function(){
     // Close mobile navigation when a menu item is clicked
     $(".mobile-nav-menu li a").click(function() {
       $(".mobile-nav-menu").hide( "slide" );
+      $("body").toggleClass('no-scroll');
       $(".mobile-nav i").addClass('ion-navicon').removeClass('ion-ios-close-empty');
     });
 
