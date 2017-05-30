@@ -78,6 +78,10 @@ a.btn {
 	width: 500px;
 	margin-bottom: 14px;
 }
+.no-scroll {
+	position: fixed;
+	overflow: hidden;
+}
 
 
 
@@ -663,7 +667,7 @@ a.btn {
 
 
 
-/* Noteworthy */
+/* Details */
 #details {
 	background: #FFF;
 	color: #6F6F6F;
@@ -932,6 +936,18 @@ a.btn {
 
 
 	/* Hero */
+	.hero {
+		height: 83vh;
+    	min-height: 362px;
+    	background: url(../images/hero_mobile@2x.png);
+    	background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center bottom;
+	    padding: 60px 0 0 0;
+	}
+	.hero div.title-content {
+		margin: 0 auto;
+	}
 	.hero nav.mobile-nav {
 		color: #FFF;
 		font-size: 40px;
@@ -1022,6 +1038,15 @@ a.btn {
 	}
 	#about .section-container .footnote .legend li {
 		font-size: 140%;
+	}
+
+
+	/* Image Breaker - Shoes */
+	.image-breaker.shoes {
+		background: url(../images/imgbreaker_shoes_mobile@2x.png);
+		background-size: cover;
+		background-position: center;
+		height: 500px;
 	}
 
 
@@ -1140,8 +1165,20 @@ a.btn {
 
 	/* Hero */
 	.hero {
-		height: 38vh;
+		height: 68vh;
     	min-height: 362px;
+    	background: url(../images/hero_mobile@2x.png);
+    	background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center bottom;
+	    padding: 60px 0 0 0;
+	}
+	.hero #title {
+	    width: 435px;
+	    margin: 0 auto;
+	}
+	.hero h5 {
+		font-size: 20px;
 	}
 
 
@@ -1155,6 +1192,12 @@ a.btn {
 	#about .section-container .profile.april .bride.portrait, #about .section-container .profile.chloe .bride.portrait {
 		margin: 0 auto;
 	}
+	#about .section-container .profile h3 {
+		font-size: 38px;
+	}
+	#about .section-container .profile div.strong-emph, #about .section-container .profile .wedding-party .person p {
+		font-size: 14px;
+	}
 	#about .section-container .footnote .border {
     	width: 88%;
 	}
@@ -1163,6 +1206,12 @@ a.btn {
 	    width: 88%;
 	    max-width: 430px;
 	    margin: 0 auto 1.5em;
+	}
+
+
+	/* Image Breaker - Shoes */
+	.image-breaker.shoes {
+		height: 400px;
 	}
 
 
@@ -1227,6 +1276,17 @@ a.btn {
 	}
 
 
+	/* Image Breaker - Sunset Gaze & Sunset Hands */
+	.double-column .image-breaker.sunset-gaze {
+		width: 100%;
+	}
+	.double-column .image-breaker.sunset-hands {
+		width: 100%;
+		max-width: 649px;
+		background-position: bottom;
+	}
+
+
 	/* Accomodations */
 	#accomodations .section-content .suggestion .city-img {
 		width: 250px;
@@ -1248,6 +1308,15 @@ a.btn {
 	}
 
 
+	/* Image Breaker - Ring */
+	.image-breaker.ring {
+		background: url(../images/imgbreaker_ring_mobile@2x.png);
+		background-size: cover;
+		background-position: center;
+		height: 325px;
+	}
+
+
 	/* Vendors */
 	#vendors .section-content .vendor-container {
 		max-width: 350px;
@@ -1256,6 +1325,94 @@ a.btn {
 	#vendors .section-content .vendor-container .blk {
 		margin-left: 0 !important;
 		width: 300px;
+	}
+
+
+	/* Image Breaker - Spoon Tree */
+	.image-breaker.spoon-tree {
+		background: url(../images/imgbreaker_spoontree_mobile@2x.png);
+		background-size: cover;
+		background-position: center;
+		height: 350px;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 504px) {
+	/* Hero */
+	.hero {
+		height: 58vh;
+	}
+	.hero div.title-content, .hero #title {
+		width: 300px;
+	}
+	.hero #title {
+		height: 50px;
+	}
+	.hero h5 {
+		font-size: 16px;
+	    margin-bottom: 15px;
+	}
+
+
+	/* About Us */
+	#about .section-container {
+	    background-position: 50% 40%;
+	}
+	#about .section-container .top-border {
+		height: 10px;
+		margin-bottom: 58px;
+	}
+	#about .section-container .about-heading {
+		display: none;
+	}
+	#about .section-container .profile.april .bride.portrait, #about .section-container .profile.chloe .bride.portrait {
+		margin: 0 auto 0 3%;
+		height: 302px;
+    	width: 287px;
+	}
+	
+	
+	/* Destination */
+	#destination .video, #destination .video .video-overlay {
+		min-height: 370px;
+	}
+	#destination .video .venue-info h1 {
+		font-size: 34px;
+	}
+	#destination .video .top-border {
+		width: 88%;
+	}
+	#destination .video .venue-info h5 {
+		width: 75%;
+		margin: 0 auto;
+	}
+	#destination .video .venue-info .btn {
+		margin-top: 18px;
+	}
+
+
+	/* Image Breaker - Sunset Dip */
+	.image-breaker.sunset-dip {
+		background: url(../images/imgbreaker_sunsetdip_mobile@2x.png);
+		background-size: cover;
+		background-position: right;
+		min-height: 380px;
+	}
+
+
+	/* Accomodations */
+	#accomodations .section-content .suggestion p {
+		font-size: 16px;
+	}
+
+
+	/* Registry */
+	#registry .image-breaker.child {
+		left: -5px;
 	}
 }
 

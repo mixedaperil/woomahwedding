@@ -23,6 +23,7 @@ $(document).ready(function(){
     // Slide in mobile navigation
     $(".mobile-nav").click(function () {
       $(".mobile-nav i").removeClass('ion-navicon').addClass('ion-ios-close-empty');
+      $("body").toggleClass('no-scroll');
       $(".mobile-nav-menu").show( "slide" );
 
       /*if ($(".mobile-nav-menu").is(':visible')) {
