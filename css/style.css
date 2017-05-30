@@ -439,7 +439,7 @@ a.btn {
 	text-align: center;
 }
 #destination .video .video-overlay {
-	background: rgba(227,120,32,0.28);
+	background: rgba(227,120,32,0.48);
 	max-width: 1280px; 
 	width: 100%;
 	max-height: 720px;
@@ -1159,7 +1159,9 @@ a.btn {
 	}
 	.section-title {
 		margin: 0 auto;
-		width: 350px;
+	    max-width: 350px;
+	    min-width: 300px;
+	    width: 100%;
 	}
 
 
@@ -1346,6 +1348,12 @@ a.btn {
 	.container {
 		padding: 0;
 	}
+	h1 {
+		font-size: 40px;
+	}
+	.section-content, .section-title .top-border {
+		width: 90%;
+	}
 
 
 	/* Hero */
@@ -1376,9 +1384,12 @@ a.btn {
 		display: none;
 	}
 	#about .section-container .profile.april .bride.portrait, #about .section-container .profile.chloe .bride.portrait {
-		margin: 0 auto 0 3%;
-		height: 302px;
-    	width: 287px;
+		margin: 0 auto 0 0%;
+		height: 262px;
+    	width: 237px;
+	}
+	#about .section-container .profile h3 {
+		font-size: 32px;
 	}
 
 
