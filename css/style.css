@@ -1342,6 +1342,12 @@ a.btn {
 
 
 @media screen and (max-width: 504px) {
+	/* General */
+	.container {
+		padding: 0;
+	}
+
+	
 	/* Hero */
 	.hero {
 		height: 58vh;
