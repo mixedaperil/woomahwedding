@@ -1159,9 +1159,7 @@ a.btn {
 	}
 	.section-title {
 		margin: 0 auto;
-	    max-width: 350px;
-	    min-width: 300px;
-	    width: 100%;
+		width: 350px;
 	}
 
 
@@ -1348,12 +1346,6 @@ a.btn {
 	.container {
 		padding: 0;
 	}
-	h1 {
-		font-size: 40px;
-	}
-	.section-content, .section-title .top-border {
-		width: 90%;
-	}
 
 
 	/* Hero */
@@ -1384,12 +1376,9 @@ a.btn {
 		display: none;
 	}
 	#about .section-container .profile.april .bride.portrait, #about .section-container .profile.chloe .bride.portrait {
-		margin: 0 auto 0 0%;
-		height: 262px;
-    	width: 237px;
-	}
-	#about .section-container .profile h3 {
-		font-size: 32px;
+		margin: 0 auto 0 3%;
+		height: 302px;
+    	width: 287px;
 	}
 
 
@@ -1440,6 +1429,45 @@ a.btn {
 	/* Registry */
 	#registry .image-breaker.child {
 		left: -5px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+	/* General */
+	h1 {
+		font-size: 40px;
+	}
+	.section-content, .section-title .top-border {
+		width: 90%;
+	}
+	.section-title {
+		margin: 0 auto;
+	    max-width: 350px;
+	    min-width: 300px;
+	    width: 100%;
+	}
+
+	
+	/* About Us */
+	#about .section-container .profile.april .bride.portrait, #about .section-container .profile.chloe .bride.portrait {
+		margin: 0 auto 0 0%;
+		height: 262px;
+    	width: 237px;
+	}
+	#about .section-container .profile h3 {
+		font-size: 32px;
+	}
+
+
+	/* Destination */
+	#destination .video .venue-info h1 {
+		font-size: 28px;
+	}
+	#destination .video .venue-info h5 {
+		margin: 10px auto 0;
 	}
 }
 
