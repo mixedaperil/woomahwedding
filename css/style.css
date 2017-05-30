@@ -1170,7 +1170,7 @@ a.btn {
     	background: url(../images/hero_mobile@2x.png);
     	background-size: cover;
 	    background-repeat: no-repeat;
-	    background-position: center bottom;
+	    background-position: right bottom;
 	    padding: 60px 0 0 0;
 	}
 	.hero #title {
@@ -1347,10 +1347,10 @@ a.btn {
 		padding: 0;
 	}
 
-	
+
 	/* Hero */
 	.hero {
-		height: 58vh;
+	    padding: 55px 0 0 0;
 	}
 	.hero div.title-content, .hero #title {
 		width: 300px;
