@@ -20,16 +20,16 @@ $(document).ready(function(){
     });
 
 
-    // Slide in mobile navigation
+    // Slide in mobile navigation and change menu icon
     $(".mobile-nav").click(function () {
-      $(".mobile-nav i").removeClass('ion-navicon').addClass('ion-ios-close-empty');
       $("body").toggleClass('no-scroll');
-      $(".mobile-nav-menu").show( "slide" );
 
-      /*if ($(".mobile-nav-menu").is(':visible')) {
-        $(".mobile-nav i").removeClass('ion-navicon').addClass('ion-ios-close-empty');
-        $(".mobile-nav-menu").show( "slide" );
-      } */
+      if ($(".mobile-nav-menu").is(':visible')) {
+        $(".mobile-nav i").addClass('ion-navicon').removeClass('ion-ios-close-empty');
+      } else {
+        $(".mobile-nav i").toggleClass('ion-navicon').toggleClass('ion-ios-close-empty');
+        $(".mobile-nav-menu").toggle( "slide" );
+      }
     });
 
 
