@@ -1380,6 +1380,16 @@ a.btn {
 		height: 302px;
     	width: 287px;
 	}
+
+
+	/* Details */
+	#details {
+		padding-bottom: 18px;
+	}
+	#details .section-content .note-container .note {
+		height: auto;
+		padding: 50px 0;
+	}
 	
 	
 	/* Destination */
