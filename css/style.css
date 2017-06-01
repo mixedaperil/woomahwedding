@@ -292,7 +292,7 @@ a.btn {
 	max-width: 46px;
 	display: inline-block;
 }
-#about .section-container .profile .wedding-party .person.best-man {
+#about .section-container .profile .wedding-party .person.right {
 	margin-left: 15px;
 }
 #about .section-container .profile .wedding-party .person p {
@@ -317,6 +317,22 @@ a.btn {
 	height: 51px;
 	width: 42px;
 }
+#about .section-container .profile .wedding-party .person.purita .portrait {
+	background: url(../images/puritaportrait@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 51px;
+	width: 42px;
+}
+#about .section-container .profile .wedding-party .person.romeo .portrait {
+	background: url(../images/romeoportrait@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 51px;
+	width: 42px;
+}
 #about .section-container .profile .wedding-party .person.chantee .portrait {
 	background: url(../images/chanteeportrait@2x.png);
 	background-repeat: no-repeat;
@@ -327,6 +343,22 @@ a.btn {
 }
 #about .section-container .profile .wedding-party .person.luc .portrait {
 	background: url(../images/lucportrait@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 51px;
+	width: 42px;
+}
+#about .section-container .profile .wedding-party .person.monica .portrait {
+	background: url(../images/monicaportrait@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 51px;
+	width: 42px;
+}
+#about .section-container .profile .wedding-party .person.phil .portrait {
+	background: url(../images/philportrait@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -344,22 +376,14 @@ a.btn {
 	margin: 60px 0 10px 0;
 	background: rgba(155,155,155,0.2);
 }
-#about .section-container .footnote p, .about .container .footnote .legend {
-	display: inline-block;
-}
-#about .section-container .footnote p {
-	letter-spacing: 0.1px;
-}
 #about .section-container .footnote .legend{
 	margin: 0;
-	display: inline-block;
-	text-transform: uppercase;
-	float: right;
 }
 #about .section-container .footnote .legend li {
-	float: right;
+	float: left;
 	margin-left: 25px;
 	vertical-align: middle;
+	text-transform: uppercase;
 }
 
 
@@ -1034,10 +1058,7 @@ a.btn {
 	    float: none;
 	    display: block;
 	    margin: 0 auto;
-	    width: 282px;
-	}
-	#about .section-container .footnote .legend li {
-		font-size: 140%;
+	    width: 353px;
 	}
 
 
