@@ -79,7 +79,7 @@ a.btn {
 	margin-bottom: 14px;
 }
 .no-scroll {
-	position: fixed;
+	position: absolute;
 	overflow: hidden;
 }
 .border {
