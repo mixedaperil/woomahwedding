@@ -82,6 +82,12 @@ a.btn {
 	position: fixed;
 	overflow: hidden;
 }
+.border {
+	margin: 0 auto;
+	background: rgba(155,155,155,0.2);
+	height: 2px;
+	width: 100%;
+}
 
 
 
@@ -371,10 +377,7 @@ a.btn {
 	text-align: left;
 }
 #about .section-container .footnote .border {
-	height: 2px;
-	width: 100%;
 	margin: 60px 0 10px 0;
-	background: rgba(155,155,155,0.2);
 }
 #about .section-container .footnote .legend{
 	margin: 0;
@@ -566,9 +569,9 @@ a.btn {
 /* Accomodations */
 #accomodations {
 	background: #E39D23;
-	height: 735px;
 	color: #FFF;
 	margin-top: -1px;
+	padding-bottom: 88px;
 }
 #accomodations .section-content {
 	padding-top: 35px;
@@ -583,6 +586,104 @@ a.btn {
 }
 #accomodations .section-content h1 {
 	margin-bottom: 70px;
+}
+#accomodations .section-content .travelodge-section {
+	margin-bottom: 38px;
+}
+#accomodations .section-content .travelodge-section .accomodation-overlay {
+	background: rgba(0,0,0,.98);
+}
+#accomodations .section-content .travelodge-section .slideshow {
+	width: 505px;
+	overflow: hidden;
+	border: solid 6px white;
+	display: inline-block;
+}
+#accomodations .section-content .travelodge-section .slideshow-container {
+	width: 400%;
+	font-size: 0;
+	transition: 1s ease;
+	height: 300px;
+}
+#accomodations .section-content .travelodge-section .slideshow-container:hover {
+	animation-play-state: paused;
+}
+#accomodations .section-content .travelodge-section .slideshow-container img {
+	width: 505px;
+	height: auto;
+	font-size: 16px;
+	text-align: center;
+}
+#accomodations .section-content .travelodge-section .slideshow-container.slide {
+	animation: slide 12s ease infinite;
+}
+@keyframes slide {
+	0% {
+	transform: translateX(0%);
+	}
+
+	12.5% {
+	transform: translateX(0%);
+	}
+
+	25% {
+	transform: translateX(-25%);
+	}
+
+	37.5% {
+	transform: translateX(-25%);
+	}
+
+	50% {
+	transform: translateX(-50%);
+	}
+
+	62.5% {
+	transform: translateX(-50%);
+	}
+
+	75% {
+	transform: translateX(-75%);
+	}
+
+	87.5% {
+	transform: translateX(-75%);
+	}
+
+	99% {
+	transform: translateX(-75%);
+	}
+
+	100% {
+	transform: translateX(0);
+	}
+}
+#accomodations .section-content .travelodge-section .accomodation-content {
+	width: 100%;
+	margin-top: 8px;
+}
+#accomodations .section-content .travelodge-section .accomodation-logo {
+	background: url(../images/vendor_travelodge@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 170px;
+	height: 60px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 28px;
+}
+#accomodations .section-content .travelodge-section .travelodge-cta {
+	display: inline-block;
+}
+#accomodations .section-content .travelodge-section .travelodge-cta a {
+	text-transform: uppercase;
+	color: #0f5c7a;
+	font-size: 80%;
+}
+#accomodations .section-content .border {
+	margin: 0 auto 88px;
+	background: rgba(255, 255, 255, 0.38);
 }
 #accomodations .section-content .suggestion {
 	max-width: 231px;
@@ -619,7 +720,7 @@ a.btn {
 	background-position: center;
 	background-size: cover;
 }
-#accomodations .section-content .suggestion h5 {
+#accomodations .section-content h5 {
 	font-weight: 600;
 	color: #0f5c7a;
 	text-transform: uppercase;
@@ -630,10 +731,10 @@ a.btn {
 	position: relative;
 	bottom: 3px;
 }
-#accomodations .section-content .suggestion .drive-time {
+#accomodations .section-content .drive-time {
 	font-weight: 600;
 }
-#accomodations .section-content .suggestion p {
+#accomodations .section-content p {
 	text-align: justify;
 	font-weight: 300;
 }
@@ -945,7 +1046,6 @@ a.btn {
 
 
 
-
 @media screen and (max-width: 1000px) {
 	/* General */
 	.section-content, .section-title .top-border {
@@ -1115,6 +1215,15 @@ a.btn {
 		height: auto;
 		padding-bottom: 30px;
 	}
+	#accomodations .section-content .travelodge-section .slideshow {
+		width: 650px;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container {
+		height: 433px;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container img {
+		width: 650px;
+	}
 	#accomodations .section-content .suggestion {
 		margin: 100px auto !important;
 	    max-width: 500px;
@@ -1165,6 +1274,29 @@ a.btn {
 		min-width: 400px;
 	}
 }
+
+
+
+
+@media screen and (max-width: 730px) {
+	/* Accomodations */
+	#accomodations .section-content .travelodge-section .slideshow {
+		width: 500px;
+		margin: 0 auto;
+		display: block;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container {
+		height: auto;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container img {
+		width: 500px;
+	}
+	#accomodations .section-content .travelodge-section .accomodation-content {
+	    max-width: 500px;
+	    margin: 8px auto 0;
+	}
+}
+
 
 
 
@@ -1313,6 +1445,22 @@ a.btn {
 		width: 250px;
 		height: 250px;
 	}
+	#accomodations .section-content .travelodge-section .slideshow {
+		width: 350px;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container {
+		height: auto;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container img {
+		width: 350px;
+	}
+	#accomodations .section-content .travelodge-section .accomodation-content {
+	    max-width: 500px;
+	    margin: 8px auto 0;
+	}
+	#accomodations .section-content .travelodge-section .travelodge-cta {
+		margin-top: 8px;
+	}
 
 
 	/* Registry */
@@ -1445,6 +1593,15 @@ a.btn {
 	#accomodations .section-content .suggestion p {
 		font-size: 16px;
 	}
+	#accomodations .section-content .travelodge-section .slideshow {
+		width: 340px;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container {
+		height: auto;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container img {
+		width: 340px;
+	}
 
 
 	/* Registry */
@@ -1453,6 +1610,19 @@ a.btn {
 	}
 }
 
+
+@media screen and (max-width: 320px) {
+	/* Accomodations */
+	#accomodations .section-content .travelodge-section .slideshow {
+		width: 280px;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container {
+		height: auto;
+	}
+	#accomodations .section-content .travelodge-section .slideshow-container img {
+		width: 280px;
+	}
+}
 
 
 
