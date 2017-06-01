@@ -880,17 +880,17 @@ a.btn {
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .vendor.americancreeklodge .logo {
-	background: url(../images/vendor_americancreeklodge@2x.png);
+#vendors .section-content .vendor-container .vendor.ecstatic .logo {
+	background: url(../images/vendor_ecstatic@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .vendor.wildatheart .logo {
-	background: url(../images/vendor_wildatheart@2x.png);
+#vendors .section-content .vendor-container .vendor.americancreeklodge .logo {
+	background: url(../images/vendor_americancreeklodge@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 }
 #vendors .section-content .vendor-container .vendor.phoenix .logo {
 	background: url(../images/vendor_phoenix@2x.png);
@@ -898,8 +898,8 @@ a.btn {
 	background-position: center;
 	background-size: cover;
 }
-#vendors .section-content .vendor-container .vendor.travelodge .logo {
-	background: url(../images/vendor_travelodge@2x.png);
+#vendors .section-content .vendor-container .vendor.wildatheart .logo {
+	background: url(../images/vendor_wildatheart@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
