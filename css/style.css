@@ -824,6 +824,7 @@ a.btn {
 	height: 82px;
 	width: 151px;
 }
+
 #details .section-content .note-container .note.dress .note-icon {
 	background: url(../images/note_dress@2x.png);
 	background-repeat: no-repeat;
@@ -877,8 +878,11 @@ a.btn {
 	font-weight: 600;
 	font-style: oblique;
 }
-#details .section-content .note-container p em {
+#details .section-content .note-container p a {
 	color: #E37820;
+}
+#details .section-content .note-container p a:hover {
+	color: #ff9d00;
 }
 
 
