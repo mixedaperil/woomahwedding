@@ -796,6 +796,9 @@ a.btn {
 	font-weight: 600;
 	color: #E39D23;
 }
+#registry .registry-content p a:hover {
+    color: #c78400;
+}
 
 
 
