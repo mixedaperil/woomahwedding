@@ -1147,9 +1147,13 @@ a.btn {
 	#about .section-container .profile .wedding-party {
 		margin-top: 0;
 	}
-	#about .section-container .footnote .border {
-	    width: 95%;
+	#about .section-container .footnote {
+		width: 95%;
 	    max-width: 650px;
+	    margin: 0 auto;
+	}
+	#about .section-container .footnote .border {
+	    width: 100%;
 	    margin: 60px auto 10px;
 	}
 	#about .section-container .footnote p {
@@ -1283,6 +1287,15 @@ a.btn {
 
 
 @media screen and (max-width: 730px) {
+	/* About */
+	#about .section-container .footnote {
+		width: 88%;
+		margin: 0 auto;
+	}
+	#about .section-container .footnote .border {
+    	width: 100%;
+	}
+
 	/* Accomodations */
 	#accomodations .section-content .travelodge-section .slideshow {
 		width: 500px;
@@ -1354,9 +1367,6 @@ a.btn {
 	}
 	#about .section-container .profile div.strong-emph, #about .section-container .profile .wedding-party .person p {
 		font-size: 14px;
-	}
-	#about .section-container .footnote .border {
-    	width: 88%;
 	}
 	#about .section-container .footnote p {
 	    display: block;
