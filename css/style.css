@@ -282,6 +282,12 @@ a.btn {
 	font-size: 14px;
 	margin-top: 15px;
 }
+#about .section-container .profile.april p a:hover {
+	color: #088B75 !important;
+}
+#about .section-container .profile.chloe p a:hover {
+	color: #E39D23 !important;
+}
 #about .section-container .profile.april .wedding-party .strong-emph {
 	color: #088B75;
 }
