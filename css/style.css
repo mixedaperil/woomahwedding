@@ -687,6 +687,9 @@ a.btn {
 	color: #0f5c7a;
 	font-size: 80%;
 }
+#accomodations .section-content .travelodge-section .travelodge-cta a:hover {
+	color: #064f6b;
+}
 #accomodations .section-content .border {
 	margin: 0 auto 88px;
 	background: rgba(255, 255, 255, 0.38);
